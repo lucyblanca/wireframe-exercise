@@ -4,7 +4,8 @@ body {
   clear: both;
 }
 header {
-  border: 3px dotted brown;
+  /* border: 3px dotted brown; */
+  background-color: lightgray;
 }
 h3 {
   padding-bottom: 15px;
@@ -20,9 +21,12 @@ nav ul {
 nav ul li {
   list-style: none;
   display: inline-block;
-  border: 3px solid red;
-  margin-left: 30px;
+  /* border: 3px solid red; */
+  margin-left: 50px;
   padding-right: 45px;
+}
+main {
+  margin-left: 50px;
 }
 main ul li {
   display: inline-block;
@@ -38,8 +42,15 @@ p {
 button {
   margin-left: 30px;
   height: 30px;
-  width: 125px;
+  width: 175px;
+  color: white;
+  background-color: black;
   text-align: center;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: green;
+  color: white;
 }
 .column-left {
   float: left;
@@ -58,8 +69,9 @@ button {
   padding-top: 30px;
 }
 .top-image {
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   width: 220px;
+  margin-left: 50px;
 }
 /* Header / Footer
 *****************************/
@@ -68,7 +80,7 @@ button {
 }
 footer {
   background-color: lightgray;
-  width: 960px;
+  /* width: 960px; */
   margin-top: 30px;
-  height: 100px;
+  height: 140px;
 }
