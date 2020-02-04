@@ -1,0 +1,32 @@
+/* Body
+*****************************/
+body {
+  clear: both;
+}
+header {
+  margin-right: 20px;
+  background-color: lightgray;
+  border: 3px dotted brown;
+}
+
+/* img {
+  border: 3px solid green;
+} */
+nav ul {
+  display: inline-block;
+  border: 3px solid orange;
+
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  border: 3px solid red;
+}
+.top-image {
+  border: 3px solid blue;
+}
+/* Header / Footer
+*****************************/
+#clear-area {
+  clear: both;
+}
