@@ -4,29 +4,71 @@ body {
   clear: both;
 }
 header {
-  margin-right: 20px;
-  background-color: lightgray;
   border: 3px dotted brown;
 }
-
-/* img {
-  border: 3px solid green;
-} */
+h3 {
+  padding-bottom: 15px;
+  font-size: 25px;
+  /* weight: solid; */
+}
 nav ul {
   display: inline-block;
-  border: 3px solid orange;
+  padding-top: 30px;
+  vertical-align: top;
 
 }
 nav ul li {
   list-style: none;
   display: inline-block;
   border: 3px solid red;
+  margin-left: 30px;
+  padding-right: 45px;
+}
+main ul li {
+  display: inline-block;
+  padding-top: 30px;
+  padding-right: 25px;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* section img {
+} */
+button {
+  margin-left: 30px;
+  height: 30px;
+  width: 125px;
+  text-align: center;
+}
+.column-left {
+  float: left;
+  /* margin-top: 30px; */
+}
+.column-right {
+  overflow: scroll;
+  height: 330px;
+  padding-left: 30px;
+  /* padding-top: 30px; */
+  margin-top: 30px;
+  margin-right: 85px;
+  margin-bottom: 15px;
+}
+#pic-1 {
+  padding-top: 30px;
 }
 .top-image {
   border: 3px solid blue;
+  width: 220px;
 }
 /* Header / Footer
 *****************************/
 #clear-area {
   clear: both;
+}
+footer {
+  background-color: lightgray;
+  width: 960px;
+  margin-top: 30px;
+  height: 100px;
 }
